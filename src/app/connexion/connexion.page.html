@@ -1,0 +1,27 @@
+
+<ion-content>
+<div id = "content">
+
+			<div id = "titleContent">
+				Connexion
+			</div>
+
+			<ion-item>
+			  <ion-label position="floating" color="secondary">Identifiant</ion-label>
+			  <ion-input [(ngModel)]="username"></ion-input>
+			</ion-item>
+
+			<ion-item>
+			  <ion-label position="floating" color="secondary">Mot de passe</ion-label>
+			  <ion-input [(ngModel)]="password" type="password"></ion-input>
+			</ion-item>
+
+
+			<div class = "footer">
+				<ion-button expand="full" color="secondary" (click)="connexion()">Valider</ion-button>
+			</div>
+
+		</div>
+
+
+</ion-content>

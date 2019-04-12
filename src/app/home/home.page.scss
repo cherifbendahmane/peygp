@@ -1,1 +1,15 @@
+.wrapper {
+  text-align: center;
+  background-image: url(../../assets/image/background.jpg); 
+  background-size: cover; /* version standardisée */
+  height: 75vh;
+  width: 100vw;
+}
 
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+  height: 25vh;
+}

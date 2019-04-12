@@ -1,5 +1,7 @@
 {
   "name": "wedding_planner",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
